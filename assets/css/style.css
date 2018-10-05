@@ -1,6 +1,41 @@
 header {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width:100%;
+    margin: 0 auto;
+    border-bottom: solid #ccc 2px;
+}
+
+body {
+    height:100%;
+    margin:0; /*used for sticky footer*/
+}
+
+.background {
+    background-image: url(../images/connectwork.png);
+    background-image: no-repeat;
+    padding: 20px 0 85px;
+    margin: 0 auto -50px; /*stick footer*/
+    min-height:100%; /*stick footer*/
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding:20px;
+    width:150px;
+    text-align: center;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    padding:10px;
+    text-align: center;
 }
 
 hr {
@@ -12,46 +47,44 @@ hr {
     padding: 0;
 }
 
-.up {
-    background-color: #4aaaa5;
-    padding-left:20px;
-    padding-right:40px;
-    position:absolute;
-    top:0px;
-    width:16%;
-    top:0px;
+.top {
+    max-width:960px;
+    margin: 0 auto;
+}
+
+.name {
+    float: left;
+   
 }
 
 h3 {
-    float:right;
-    position: relative;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    padding: 20px;
+    font-weight:lighter;
+    float:right;
 }
-
-.info {
-    background-color: #ffffff;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 960px;
-    margin: 0px;
-}
-
-#content {
-    float: left;
-    width:960px;
+.nav {
     position:relative;
-    margin:20px;
-    padding:20px;
+    top: 20px;
+    margin: 30px;
+    padding:30px;
 }
 
-img {
-    
-  float:left;
-  width:200px;
-  padding:20px;
+.nav a {
+    color: #4aaaa5;
+}
+.container {
+    max-width:960px;
+    margin: 0px auto;
+    background-color: white;
+    border: solid #ddd 1px;
+}
+.bio-pic {
+    float:left;
+    width:200px;
+    padding:20px;
+    margin-right:15px;
+    padding-top: 10px;
 }
 
 p {
@@ -70,4 +103,34 @@ footer {
     height:40px;
 }
 
+/*contact styling*/
+
+.input {
+    width: 955px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+
+} 
+
+textarea {
+    width: 945px;
+    border: 2px solid #777777;
+    height:200px;
+
+}
+
+.submit {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 18px;
+}
+
+label {
+    font-family:Arial, Helvetica, sans-serif;
+    width:955px;
     
+}
