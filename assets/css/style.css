@@ -82,9 +82,10 @@ h3 {
 .bio-pic {
     float:left;
     width:200px;
-    padding:20px;
-    margin-right:15px;
-    padding-top: 10px;
+    height: 200px;
+    margin-right:20px;
+    padding-bottom: 40px;
+    padding-left:20px;
 }
 
 p {
@@ -99,9 +100,15 @@ footer {
     border-top: 8px solid #4aaaa5;
     text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 10px;
-    height:40px;
+    height: 40px;
+   
 }
+
+.copyright {
+    font-size: 10px;
+    color:white;
+}
+
 
 /*contact styling*/
 
