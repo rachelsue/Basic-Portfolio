@@ -21,7 +21,6 @@ time, mark, audio, video {
 
 header {
     color: #ffffff;
-    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
     width:100%;
     margin: 0 auto;
     border-bottom: solid #ccc 2px;
@@ -34,7 +33,6 @@ html, body {
 
 .background {
     background-image: url(../images/connectwork.png);
-    /*background-image: no-repeat;*/
     padding: 20px 0 85px;
     margin: 0 auto -50px; /*stick footer*/
     min-height:100%; /*stick footer*/
@@ -44,16 +42,12 @@ html, body {
     padding: 30px 40px 30px 40px;
 }
 
+        /*Headers*/
+
 h1 {
     font-size: 24px;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /*background-color: #4aaaa5;*/
-    /*
-    padding:20px;
-    width:150px;
-    text-align: center;*/
-    
 }
 
 h2 {
@@ -65,6 +59,8 @@ h2 {
     text-align: center;
 }
 
+        /*Line*/
+
 hr {
     display: block;
     height: 1px;
@@ -74,6 +70,8 @@ hr {
     padding: 0;
 }
 
+        /*Name*/
+
 .top {
     max-width:960px;
     margin: 0 auto;
@@ -81,8 +79,6 @@ hr {
 
 .name {
     float: left;
-
-   
 }
 
 .Rachel {
@@ -93,47 +89,36 @@ hr {
     text-align: center;
 }
 
-/*h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight:lighter;
-    float:right;
-    position:relative;*/
+        /*Navigation*/
 
-/*.nav {
-    /*position:relative;*/
-    /*top: 20px;
-    margin: 30px;
-    padding:30px;*/
+.nav {
+    float: right;
+}
+    
+nav a {
+text-decoration: none;
+color: #4aaaa5;
+}
+    
+.nav-li {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    display: inline;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: solid #dddddd 2px;
+    position:relative;
+    top: 20px;
+}
 
-/*.nav a {
-    color: #4aaaa5;*/
+        /*Bio Content*/
 
-    .nav {
-        float: right;
-    }
-    
-    nav a {
-        text-decoration: none;
-    }
-    
-    
-    
-    .nav-li {
-        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-        display: inline;
-        margin-right: 10px;
-        padding-right: 10px;
-        border-right: solid #dddddd 2px;
-        position:relative;
-        top: 20px;
-    }
 .container {
     max-width:960px;
     margin: 0px auto;
     background-color: white;
     border: solid #ddd 1px;
 }
+
 .bio-pic {
     float:left;
     width:200px;
@@ -147,7 +132,9 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
-    
+
+        /*Footer & Clear*/
+
 .footer {
     background-color: #666666;
     clear:both;
@@ -156,61 +143,35 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 40px;
     bottom:0px;
-   
 }
+
 .cf {
     clear:both;
     overflow:auto;
 }
+
 .copyright {
     font-size: 10px;
     color:white;
 }
 
-
-/*contact styling*/
+    /*Contact Styling*/
 
 .input {
-    /*width: 955px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:14px;
-    margin-top:10px;
-    margin-bottom:10px;
-    text-indent:5px;*/
-
     padding: 5px 0px 5px;
     width:100%;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;
     text-indent: 5px;
-
-
 } 
 
 textarea {
-    /*width: 50%;
-    border: 1px solid #777777;
-    height:200px;
-    text-indent:5px;
-    padding:12px;
-    margin-top:6px;
-    margin-bottom:16px;
-    margin-left:2.5px;
-    box-sizing: border-box;
-    resize: vertical;*/
     height: 150px;
     width: 100%;
     border-color: #ddd;
-
 }
 
 .submit {
-    /*font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    font-size: 18px;
-    margin: 10px;
-    border: 1px solid #777777;*/
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #4aaaa5;
     color: #fff;
@@ -218,30 +179,18 @@ textarea {
     margin-top: 10px;
     padding: 10px 25px 10px;
     font-size: 16px;
-    
 }
 
 label {
-    /*font-family:Arial, Helvetica, sans-serif;
-    width:955px;
-    margin-left:5px;*/
     font-size: 16px;
     display:block;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     padding: 10px 0 5px;
-    
 }
 
-/* Portfolio */
+    /* Portfolio Styling*/
 
 .cap {
-    /*font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    background-color: #4aaaa5;
-    color: #fff;
-    text-align: center;
-    width:260px;
-    padding: 20px;*/
     padding: 20px 70px 20px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
@@ -252,80 +201,17 @@ label {
     white-space: nowrap;
     position: absolute;
     bottom:45px;
-  
-    
-    
-    
 }
 
 .portfolio {
-    /*max-width:281px;
-    float:left;
-    padding:40px;*/
     padding: 20px 35px 20px 0px;
     max-width: 280px;
     margin-right:0;
     display: inline-block;
     position:relative;
-    
-    
 }
 
 img {
-
- width:280px;
- height:200px;
+    width:280px;
+    height:200px;
 }
-
-/*
-.hangimg {
-    position:relative;
-    margin-top:80px;
-}
-
-.hangman {
-    position:absolute;
-    bottom:80px;
-}
-
-.rpgimg {
-    position:relative;
-    margin-top:80px;
-}
-
-.rpg {
-    position:absolute;
-    bottom:80px;
-}
- 
-.triviaimg {
-    position:relative;
-  
-}
-
-.trivia {
-    position:absolute;
-    bottom:-300px;
-}
-
-.rutgersimg {
-    position:relative;
-  
-}
-
-.rutgers {
-    position:absolute;
-    bottom:-300px;
-}
-
-.rockimg {
-    position:relative;
-  
-}
-
-.rock {
-    position:absolute;
-    bottom:-685px;
-}
-
-*/
